@@ -1,5 +1,5 @@
 # RequestCollectionComputerVisionAPIs
-A collection of requests for the communication with different computer vision APIs ([plant.id](https://www.plant.id/), [Pl@ntNet](https://plantnet.org/en/), [iNaturalist](https://www.inaturalist.org/pages/computer_vision_demo), [NIA](https://observation.org/apps/obsidentify/)). 
+A collection of requests for the communication with different computer vision APIs ([plant.id](https://www.plant.id/), [Pl@ntNet](https://plantnet.org/en/), [iNaturalist](https://www.inaturalist.org/pages/computer_vision_demo), [NIA](https://observation.org/apps/obsidentify/)). The script is also available on GoogleColab: https://drive.google.com/file/d/1DeqHHIVPyq050iqMdRp6fApulrSw6-Pv/view?usp=sharing
 
 ## Introduction
 This script was developed in the context of the project “CS data supporting IAS policy in Europe” caried out by the JRC. It aims at consolidating the framework for CS IAS data in Europe. Towards this objective the aim is inter alia to explore automatized solutions for validation of IAS records in support of citizen science. This entails the identification, testing and provision of species recognition models to support the validation of IAS in Europe. The outmost goal is to improve the current data validation process of the JRC app through automation.
