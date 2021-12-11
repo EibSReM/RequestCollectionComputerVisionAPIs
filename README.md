@@ -67,7 +67,7 @@ For all APIs you need to provide user credentials. How you can get these is desc
 * Pl@ntNet
   * Create a Pl@ntNet Developer Account: https://my.plantnet.org/signup
 * iNaturalist
-  * Create an Account on rapidAPI: https://rapidapi.com/auth/sign-up?
+  * Create an Account on rapidAPI: https://rapidapi.com/auth/sign-up
   * Write an E-Mail to iNaturalist and ask for access to the VisionAPI on rapidAPI: help@inaturalist.org
 * NIA
   * Create an Account on Obervation.org: https://observation.org/accounts/signup/
