@@ -54,7 +54,6 @@ jupyter notebook apiRequests.ipynb
       * Password 
     * For the other APIs:
       * Access token
-  * Filename of csv, where for each image the organ for each image is specified. Organ could be one of: leaf, flower, fruit, bark (For Pl@ntNet only)
 * The result file will have following result:
   * fileName of image, first prediction, score of first prediction, second prediction, score of second prediction, ... 
 
