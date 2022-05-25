@@ -10,33 +10,38 @@ This script is used to send request to four different computer vision APIs and s
  * [iNaturalist](https://www.inaturalist.org/pages/computer_vision_demo): The iNaturalist API is developed by [iNaturalist](https://www.inaturalist.org/), a joint initiative by the California Academy of Science and the National Geographic Society. It is able to identify plant and animal species.
  * [NIA](https://observation.org/apps/obsidentify/): The Nature Identification API, is a joint effort by [Observation International](https://observation-international.org/en/), [Naturalis](https://www.naturalis.nl/en) and Intel Corp. It is able to identify plant and animal species.
 
-## Prerequisites
+
+
+## Installation
+### 1. Clone the repo
+```bash
+git clone https://github.com/EibSReM/RequestCollectionComputerVisionAPIs.git
+cd ReqRequestCollectionComputerVisionAPIs
+```
+
+### 2. Installtion of packages 
+
+You can either install python and all packages directly on your or machine or you can use virtual environments like conda.
+
+
+a) Plain installation
 
 1. Install Python
 
-2. Install Jupyter notebook (more info at https://jupyter.org/install.html)
+2. Install Jupyter notebook (more info at https://jupyter.org/install.html) and needed Packages
 ```bash
 pip install notebook
-```
-3. Install needed packages 
-
-```bash
-pip install base64
 pip install requests
-pip install getpass
-pip install csv
-pip install os
-pip install json
-pip install pprint
 ```
 
-## Installation
-1. Clone the repo
+b) Using Conda
+
 ```bash
-git clone https://github.com/EibSReM/RequestCollectionComputerVisionAPIs.git
+conda env create -f environment.yml
+conda activate RequestCollectionComputerVisionAPIs
 ```
 
-2. Start the jupyter notebook
+### 3. Start the jupyter notebook
 ```bash
 jupyter notebook apiRequests.ipynb
 ```
@@ -71,3 +76,14 @@ For all APIs you need to provide user credentials. How you can get these is desc
 * NIA
   * Create an Account on Obervation.org: https://observation.org/accounts/signup/
   * Write an E-Mail to observation.org and ask them to enable your account to access the computer vision model: info@observation.org 
+### Number of Requests
+The amount of requests needed depends on the number of images to be tested. For each image one request is needed. In our research we tested the APIs with 6 images of by the API covered Invasive Alien Species of union concern. Which results in different test sizes.
+* INaturalist API: 432
+* NIA: 294
+* Pl@ntNet API: 180
+* PlantID: 186
+### Execution Time
+The execution time strongly depends on the internet connection and the response time of the APIs, which often vary. As an example:
+To query 150 images with Pl@ntNet took 8:13 minutes, with the CPU time being 1:43 minutes.
+
+
