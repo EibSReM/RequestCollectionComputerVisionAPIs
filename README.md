@@ -71,3 +71,7 @@ For all APIs you need to provide user credentials. How you can get these is desc
 * NIA
   * Create an Account on Obervation.org: https://observation.org/accounts/signup/
   * Write an E-Mail to observation.org and ask them to enable your account to access the computer vision model: info@observation.org 
+
+## Approach Demo 
+
+* In the folder [demo](/demo/) you can find a couple of images and a README with the expected results for demonstration purposes. 
